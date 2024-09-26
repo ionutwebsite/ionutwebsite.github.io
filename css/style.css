@@ -12318,6 +12318,10 @@ ul#slide-list{
 	}
 }
 
+.delta {
+	height: 90px;
+}
+
 .section-testimonial{ background:url(../images/background/bg-3.jpg) top fixed}
 #view-all-projects, #call-to-action{padding:60px 0 60px 0;}
 .variable-padding{padding-top:50px}
@@ -12350,8 +12354,8 @@ ul#slide-list{
 	max-height: 25vh;
 }
 .delta {
-	content: url('/images/delta_large.png');
-	height: 50px;
+	content: url('../images/logo.png');
+	height: 70px;
 }
 #subheader{
 	background:url(../images/background/contact_mobile.jpg) !important;
