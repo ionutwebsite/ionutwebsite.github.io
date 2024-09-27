@@ -10210,6 +10210,7 @@ transition:.5s;
 
 .full-height {
     overflow: hidden;
+    min-height: calc(var(--vh, 1vh) * 90); /* New way, using the custom property */
 }
 
 .full-height.vertical-center{
@@ -12327,6 +12328,17 @@ ul#slide-list{
 .variable-padding{padding-top:50px}
 .radio-img{flex: 0 0 10%; padding: 5px; box-sizing: border-box;}
 
+#section-welcome{background:url(../images/background/bg2.jpg) top fixed;}
+
+.outlined {
+    text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; /* Text shadow for outline effect */
+}
+
+
 @media (max-width: 768px) {
 #view-all-projects, #call-to-action{padding:20px 0 20px 0;}
 .no-bottom-mobile{margin-bottom:0px !important;}
@@ -12359,6 +12371,18 @@ ul#slide-list{
 #subheader{
 	background:url(../images/background/contact_mobile.jpg) !important;
 	}
+#section-welcome{background:url(../images/background/bg2.jpg) top fixed;}
+
+.outlined {
+    text-shadow: none;
+}
+
+.mobile-top-margin{
+	margin-top:160px;
+}
+.mobile-bottom-margin{
+	margin-bottom:50px;
+}
 }
 
 @media (min-width: 769px) {

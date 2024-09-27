@@ -1040,7 +1040,7 @@ jQuery(document).ready(function () {
 				jQuery('.full-height').css("height", $doc_height);
 				var picheight = jQuery('.center-y').css("height");
 				picheight = parseInt(picheight, 10);
-				jQuery('.center-y').css('margin-top', (($doc_height - picheight) / 2) - 90);
+				jQuery('.center-y').css('margin-top', (($doc_height - picheight) / 2) - 0);
 				jQuery('.full-height .de-video-container').css("height", $doc_height);
 			}
 			
