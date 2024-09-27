@@ -12323,7 +12323,7 @@ ul#slide-list{
 	height: 90px;
 }
 
-.section-testimonial{ background:url(../images/background/bg-25.jpg) top fixed !important}
+#section-testimonial{ background:url(../images/background/testimonials_bg.jpg) top fixed}
 #view-all-projects, #call-to-action{padding:60px 0 60px 0;}
 .variable-padding{padding-top:50px}
 .radio-img{flex: 0 0 10%; padding: 5px; box-sizing: border-box;}
@@ -12372,6 +12372,11 @@ ul#slide-list{
 	background:url(../images/background/contact_mobile.jpg) !important;
 	}
 #section-welcome{background:url(../images/background/bg2.jpg) top fixed;}
+
+#section-testimonial{ background:url(../images/background/testimonials_bg_mobile.jpg);
+
+}
+
 
 .outlined {
     text-shadow: none;
