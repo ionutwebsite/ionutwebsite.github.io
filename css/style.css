@@ -12365,8 +12365,8 @@ ul#slide-list{
 	max-height: 25vh;
 }
 .delta {
-	content: url('../images/logo.png');
-	height: 70px;
+	content: url('../images/logo_mobile.png');
+	height: 60px;
 }
 #subheader{
 	background:url(../images/background/contact_mobile.jpg) !important;
